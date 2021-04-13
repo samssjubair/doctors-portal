@@ -1,0 +1,16 @@
+.info-icon{
+    font-size: 3rem;
+    margin-right: 1rem;
+}
+.card-container{
+    color: white;
+    height: 120px;
+    padding: 40px;
+    margin: 10px;
+}
+.background-primary{
+    background-color: #1cc7c1;
+}
+.background-secondary{
+    background-color: #3a4256;
+}
