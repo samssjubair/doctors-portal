@@ -20,7 +20,7 @@ const BookModal = ({modalIsOpen,closeModal,appointmentOn,date}) => {
         data.appointmentDate=date;
         data.bookedDate=new Date();
 
-        fetch('http://localhost:5055/addAppointment',{
+        fetch('https://warm-falls-42670.herokuapp.com/addAppointment',{
             method: 'POST',
             headers: {'Content-type': 'application/json'},
             body: JSON.stringify(data)

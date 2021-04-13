@@ -6,7 +6,7 @@ const AppointmentsByDate = ({selectedDate}) => {
     const [loggedInUser,setLoggedInUser]=useContext(UserContext);
     const [appointments,setAppointments]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5055/appointmentsByDate',{
+        fetch('https://warm-falls-42670.herokuapp.com/appointmentsByDate',{
         method: 'POST',
         headers: {'Content-type': 'application/json'},
         body: JSON.stringify({date: selectedDate, email: loggedInUser.email})

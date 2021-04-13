@@ -5,7 +5,7 @@ import Sidebar from '../Sidebar/Sidebar';
 const AllPatients = () => {
     const [patients,setPatients]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5055/appointments')
+        fetch('https://warm-falls-42670.herokuapp.com/appointments')
         .then(res=>res.json())
         .then(data=>setPatients(data))
     },[patients])

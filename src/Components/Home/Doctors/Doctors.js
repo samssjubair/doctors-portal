@@ -3,7 +3,7 @@ import DoctorCard from '../DoctorCard/Doctorcard'
 const Doctors = () => {
     const [doctors,setDoctors]=useState([]);
     useEffect(()=>{
-        fetch('http://localhost:5055/doctors')
+        fetch('https://warm-falls-42670.herokuapp.com/doctors')
         .then(res=>res.json())
         .then(data=>setDoctors(data))
     },[])

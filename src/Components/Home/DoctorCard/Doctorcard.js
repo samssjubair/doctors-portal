@@ -7,7 +7,7 @@ const DoctorCard = ({dr}) => {
         <div className="col-md-4 text-center">
             {
                 dr.image.img? <img style={{height: '200px'}} src={`data:image/jpeg;base64,${dr.image.img}`} /> :
-                <img style={{height: '200px'}} className="img-fluid mb-3" src={`http://localhost:5055/${dr.image}`} alt=""/>
+                <img style={{height: '200px'}} className="img-fluid mb-3" src={`https://warm-falls-42670.herokuapp.com/${dr.image}`} alt=""/>
             }
             
             <h4>{dr.name}</h4>
