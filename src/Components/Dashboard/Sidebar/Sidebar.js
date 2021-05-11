@@ -3,13 +3,14 @@ import { Link } from "react-router-dom";
 import "./Sidebar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
+  faFileAlt,
   faCog,
   faSignOutAlt,
   faCalendar,
   faGripHorizontal,
   faUsers,
 } from "@fortawesome/free-solid-svg-icons";
-import { faFileAlt } from "@fortawesome/free-regular-svg-icons";
+
 import { UserContext } from "../../../App";
 
 const Sidebar = () => {

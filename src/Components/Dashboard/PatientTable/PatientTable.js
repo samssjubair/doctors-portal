@@ -3,7 +3,7 @@ import React from 'react';
 const PatientTable = ({patients}) => {
     return (
         <div>
-                    <table className="table table-borderless">
+            <table className="table table-borderless">
             <thead>
                 <tr>
                 <th className="text-secondary text-left" scope="col">Sr No</th>
